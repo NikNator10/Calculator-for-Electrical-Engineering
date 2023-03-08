@@ -3,7 +3,7 @@ berechnung = int(input("Folgende Möglichkeiten: \n1. Normale Rechnungen \n2. HW
 
 if 1 < berechnung > 2:
   print("Ungültige Eingabe")
-  break
+  
 
 elif berechnung == 1: #basic-calculator
   from calculations import addieren
